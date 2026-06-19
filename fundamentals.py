@@ -1,7 +1,3 @@
-print("Hello, Richard!")
-print("Step 1 achieved")
-print("Step 2: making another commit on git")
-
 name = "Richard" #string
 age = 17 #integer
 height = 5.7 #float
@@ -70,19 +66,3 @@ grades.remove(25) # removes 25
 print(grades)
 grades.sort() # sorts in ascending order 
 print(grades)
-
-student = {
-    "name": "Richard",
-    "age": 17,
-    "grades": [25, 93, 100, 95, 88]
-}
-print(student["name"])
-print(student["grades"])
-
-student["age"] = 18 # updates age
-student["major"] = "Cognitive Science" # adds new definition
-
-print(student)
-print(student.keys()) # keys of dictionary
-print(student.values()) # values of dictionary
-print(student["major"])
