@@ -4,7 +4,7 @@ student = {
     "courses": ["Math", "CS", "English"]
 }
 
-print(f"Student name: {student["name"]}")
+print(f"Student name: {student["name"]}") # older versions use single quotes for the string to avoid syntax errors
 
 total_courses = len(student["courses"])
 print(f"Total courses: {total_courses}")
