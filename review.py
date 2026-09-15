@@ -94,14 +94,14 @@ print(arr2d)
 array = [[0 for i in range(4)] for j in range(3)] # creates a 2D array with 4 rows and 3 columns
 print(array)"""
 
-string = 'abc'
+"""string = 'abc'
 print(int("123") + int("456")) # can convert to and from int
 print(str(123) + str(456)) #adding strings together appends them
 
 strings = ["abc", "def", "ghi"]
-print(" ".join(strings)) # joins strings together
+print(" ".join(strings)) # joins strings together"""
 
-from collections import deque
+"""from collections import deque
 #deque is a double ended queue, can add and remove from both ends
 d = deque()
 d.append(0)
@@ -112,5 +112,9 @@ d.popleft()
 print(d)
 
 d.appendleft(0)
-print(d)
+print(d)"""
+
+
+
+
 
