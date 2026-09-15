@@ -111,4 +111,6 @@ print(d)
 d.popleft()
 print(d)
 
+d.appendleft(0)
+print(d)
 
